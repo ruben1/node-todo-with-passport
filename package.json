@@ -1,9 +1,9 @@
 {
   "name": "node-todo",
   "version": "0.0.0",
-  "description": "Simple todo application.",
+  "description": "Simple todo application with Passport authentication",
   "main": "server.js",
-  "author": "Scotch",
+  "author": "Ruben",
   "dependencies": {
     "body-parser": "~1.4.3",
     "express": "~4.6.1",

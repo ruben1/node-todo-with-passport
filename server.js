@@ -8,6 +8,7 @@ var morgan   = require('morgan');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 var passport = require('passport');
+//require User model
 
 // configuration ===============================================================
 mongoose.connect(database.url); 	// connect to mongoDB database on modulus.io
