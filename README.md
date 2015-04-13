@@ -1,3 +1,5 @@
+Note: Original todo app forked from scotch.io. Thanks!
+
 # Mean Todo App with Passport 
 
 A Node app built with MongoDB and Angular. For demonstration purposes and a tutorial.
@@ -18,8 +20,6 @@ Node provides the RESTful API. Angular provides the frontend and accesses the AP
 ## Passport implementation
 
 
-
-Note: Original todo app forked from scotch.io. 
 
 
 
