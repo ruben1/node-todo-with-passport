@@ -4,12 +4,18 @@
   "description": "Simple todo application with Passport authentication",
   "main": "server.js",
   "author": "Ruben",
+  "scripts": {
+    "dev": "node server.js "
+  },
   "dependencies": {
     "body-parser": "~1.4.3",
     "express": "~4.6.1",
+    "express-session": "^1.11.3",
     "method-override": "~2.1.1",
     "mongoose": "~3.8.13",
     "morgan": "~1.1.1",
-    "passport": "^0.2.1"
+    "passport": "^0.2.1",
+    "passport-oauth": "^1.0.0",
+    "request": "^2.58.0"
   }
 }
