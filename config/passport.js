@@ -28,6 +28,7 @@ module.exports = function() {
           id: body.id,
           avatar: body.avatar_url 
         };
+        console.log('user', user);
         User.findOne({id: user.id}, function(err, userFound) {
           console.log('user found', err, userFound);
           if(!!err || !!userFound) {
@@ -38,7 +39,7 @@ module.exports = function() {
               done(err, userCreated);
             });
           }          
-        });      
+        });     
       });
     }
   ));
